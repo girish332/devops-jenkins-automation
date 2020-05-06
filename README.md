@@ -89,49 +89,22 @@ sudo cp -r -v -f * /home/girish332/Desktop/devops/testDir/
 ### JOB 3
 
 
+* For JOB 3 create a new job and under soruce code managment set the branch to dev1 and do as shown to merge before build
+
+![alt text](https://github.com/girish332/devops-jenkins-automation/blob/master/images/job3_1.png?raw=true)
 
 
+* Set the build trigger to build the project after job2 is built
+
+![alt text](https://github.com/girish332/devops-jenkins-automation/blob/master/images/job3_2.png?raw=true)
 
 
+* In the post build options build job1 if the build is stable and add the following configration
 
-### Installing
+![alt text](https://github.com/girish332/devops-jenkins-automation/blob/master/images/job3_3.png?raw=true)
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+### All jobs running 
 
-```
-Give the example
-```
+![alt text](https://github.com/girish332/devops-jenkins-automation/blob/master/images/job_run.png?raw=true)
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
